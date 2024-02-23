@@ -19,12 +19,12 @@ header{
 li{
     display: inline;
     text-decoration: none;
-    margin-left: 20px;
+    margin-left: 50px;
 }
 li a{
     text-decoration: none;
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bolder;
 }
 .image-custom{
@@ -45,6 +45,80 @@ li a{
 }
 /* <!-- Toggle end here --> */
 
+/* Drowpdown page start here */
+.home-item{
+    position: relative;
+}
+.d-list{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    background: rgb(146, 239, 76);
+    color: whitesmoke;
+    font-weight: bold;
+    border: 2px solid rgb(242, 157, 157);
+    border-radius: 10px;
+    padding: 5px 20px;
+}
+.home-item2{
+    position: relative;
+}
+.d-list2{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    background: rgb(146, 239, 76);
+    color: whitesmoke;
+    font-weight: bold;
+    border: 2px solid rgb(242, 157, 157);
+    border-radius: 10px;
+    padding: 5px 20px;
+}
+.d-list-item{
+    display: block;
+    padding: 3px 5px;
+}
+
+.products-item{
+    position: relative;
+}
+.dwn-list{
+    position: absolute;
+    top: 100%;
+    display: none;
+    right: 0px;
+    background: rgb(146, 239, 76);
+    color: white;
+    font-weight: bold;
+    border: 2px solid rgb(242, 157, 157);
+    border-radius: 10px;
+}
+.dwn-list-items{
+    display: block;
+    padding: 3px 5px;
+}
+.contact-item{
+    position: relative;
+}
+.dwn2-list{
+    position: absolute;
+    top: 100%;
+    right: 0px;
+    display: none;
+    background: rgb(146, 239, 76);
+    color: white;
+    font-weight: bold;
+    border: 2px solid rgb(242, 157, 157);
+    border-radius: 10px;
+}
+.dwn2-list-items{
+    display: block;
+    padding: 3px 5px;
+}
+/* Drowpdown page end here */
+
 /* Media query start here */
 @media(max-width: 992px){
     .toggle{
@@ -62,7 +136,9 @@ li a{
         top: 100%;
         right: 0px;
         display: none;
-        background-color: black;
+        background-color: rgb(114, 105, 105);
+        border: 2px solid red;
+        border-radius: 20px;
         padding: 10px 30px;
     }
 }
